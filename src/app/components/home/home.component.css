@@ -1,0 +1,74 @@
+.l-nav {
+  height: 128px;
+}
+
+.nav-toggler {
+  margin: 0px 40px 0px 30px ;
+  font-size: 20px;
+  color: #8c0e03;
+}
+.carousel-indicators {
+  bottom: -35px;
+}
+.carousel-indicators li {
+  border: 1px solid #8c0e03;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+.carousel-indicators .active {
+  background-color: #8c0e03;
+}
+.photo-title {
+  display: flex;
+  margin-top: 71px;
+  margin-bottom: 50px;
+  justify-content: center;
+  align-items: center;
+}
+.photo-title--text {
+  font-weight: normal;
+  color: #333;
+  margin: 0 20px;
+}
+
+.line {
+  width: 30px;
+  height: 3px;
+  background-color:#bc2f36;
+  display: inline-block;
+}
+
+.wonderfulReview.carousel-inner {
+  width: 220px;
+  height: auto;
+  margin: 0 auto;
+}
+.photo-angle {
+  color: #999;
+  font-size: 20px;
+}
+
+.photo-description {
+  padding: 13px 36px;
+  margin: 14px auto 15px;
+  display: inline-block;
+  border: solid 1px rgb(188, 47, 54, .5);
+  font-size: 14px;
+  letter-spacing: 0.1px;
+  color: #333333;
+}
+.photo-time {
+  margin-left: calc((100% - 215px) /2);
+}
+.userReview {
+  width: 228px;
+  height: 110px;
+  background-color: #f9f9f9;
+  padding: 35px 40px;
+  font-size: 14px;
+  font-weight: normal;
+  color: #666666;
+  display: inline-block;
+  margin: 0 auto;
+}
