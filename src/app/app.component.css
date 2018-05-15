@@ -1,0 +1,87 @@
+.l-nav {
+  height: 128px;
+}
+.nav {
+  align-items: center;
+}
+
+.navbar.nav-toggler {
+  margin: 0px 40px 0px 30px ;
+  font-size: 20px;
+  color: #8c0e03;
+  padding: 0;
+  cursor: pointer;
+}
+.mat-drawer {
+  width: 65%;
+}
+
+.sidenav-container {
+  padding: 50px 0;
+  height: 100%;
+}
+
+.header-logo {
+  display: inline-block;
+  width: 150px;
+  height: 60px;
+}
+.logo-icon {
+  display: inline-block;
+  vertical-align: middle;
+  width: 100%;
+  height: 100%;
+  background-image: url("/assets/logo.svg");
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+.nav-logo {
+  width: 140px;
+  height: 39px;
+  display: inline-block;
+}
+.sidenav-list {
+  list-style: none;
+  padding: 0;
+}
+.sidenav-list > li {
+  padding: 15px;
+  text-indent: 15%;
+}
+.nav-list--en {
+  color: #b5b5b5;
+  font-size: 12px;
+}
+.nav-list--en:hover {
+  color: #a0a0a0;
+}
+.nav-list--item {
+  color: #666;
+  font-size: 14px;
+  font-weight: 400;
+  cursor: pointer;
+}
+.nav-list--item:hover {
+  color: #000;
+}
+@media (min-width: 768px) {
+  .header-logo {
+    width: 250px;
+    height: 72px;
+  }
+  .sidenav-list > li {
+    text-indent: 22%;
+  }
+  .navbar.nav-toggler {
+    margin: 0px 0px 0px 50px ;
+  }
+  .nav-logo {
+    margin: 0 auto;
+  }
+}
