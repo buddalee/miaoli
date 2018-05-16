@@ -86,3 +86,23 @@
     margin: 0 auto;
   }
 }
+
+@media(min-width: 1440px) {
+  .mat-drawer {
+    width: 270px;
+    background-color: #f9f9f9;
+  }
+  .nav.l-nav {
+    display: none;
+  }
+  .logo-icon {
+    background-image: url("/assets/1440-logo.svg");
+  }
+  .header-logo {
+    width: 140px;
+    height: 149px;
+  }
+  .sidenav-list > li {
+    text-indent: 26%;
+  }
+}

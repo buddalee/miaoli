@@ -71,3 +71,32 @@
   font-size: 14px;
   padding: 90px 0px 0px 80px;
 }
+.home-container {
+  background-color: #fff;
+}
+@media(min-width: 1440px) {
+  .home-container {
+    padding: 50px 50px 100px;
+  }
+  .photo-recall {
+    display: inline-block;
+  }
+  .wonderfulReview.carousel-inner {
+    width: 330px;
+    height: 217px;
+  }
+  .photo-description {
+    margin: 25px 0 0 0;
+    text-align: center;
+    width: 330px;
+    height: 45px;
+  }
+  .photo-time {
+    margin: 13px 0 0 0;
+  }
+  .userReview {
+    width: 330px;
+    height: 160px;
+    padding: 54px 95px;
+  }
+}
