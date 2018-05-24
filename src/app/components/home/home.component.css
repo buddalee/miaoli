@@ -83,6 +83,12 @@
   height: auto;
   margin: 25px auto 0px;
 }
+.quote {
+  color: #bc2f36;
+  position: absolute;
+  top: 20px;
+  right: 50px;
+}
 @media(min-width: 768px) {
   .wonderfulReview.carousel-inner {
     width: 500px;
@@ -94,6 +100,7 @@
     margin-left: calc((100% - 500px) /2);
   }
   .userReview {
+    position: relative;
     width: 330px;
     height: 160px;
     padding: 54px 95px;
