@@ -55,6 +55,7 @@
   margin-left: calc((100% - 228px) /2);
 }
 .userReview {
+  position: relative;
   width: 228px;
   height: 110px;
   background-color: #f9f9f9;
@@ -86,8 +87,8 @@
 .quote {
   color: #bc2f36;
   position: absolute;
-  top: 20px;
-  right: 50px;
+  top: 15px;
+  right: 20px;
 }
 @media(min-width: 768px) {
   .wonderfulReview.carousel-inner {
@@ -100,13 +101,16 @@
     margin-left: calc((100% - 500px) /2);
   }
   .userReview {
-    position: relative;
     width: 330px;
     height: 160px;
     padding: 54px 95px;
   }
   .pptReview.carousel-inner {
     width: 117.5px;
+  }
+  .quote {
+    top: 20px;
+    right: 50px;
   }
 }
 @media(min-width: 1440px) {
