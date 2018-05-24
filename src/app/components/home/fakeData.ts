@@ -13,15 +13,15 @@ export const wonderReviews = [
 
 export const pttReviews = [
   {
-    image: "http://pic.qiantucdn.com/58pic/28/44/63/358PICk58PICT58PICS26deF2j5fh_PIC2018.jpg!qt324",
+    image: "assets/people-01.svg",
     description: '空氣新鮮，街道很乾淨 希望下次還有機會造訪'
   },
   {
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNVg1KG-UpfvQjOBFNvkEMu3JTrLGL5sbiEm57CTctvbpuPz3LFQ",
+    image: "assets/people-02.svg",
     description: '超好吃～～'
   },
   {
-    image: "http://static.wixstatic.com/media/92b36f_87817020b7dd47f1b7178dcfd7c9d913~mv2.gif",
+    image: "assets/people-03.svg",
     description: '下次要大一家人去吃'
   }
 ];

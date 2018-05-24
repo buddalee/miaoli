@@ -74,13 +74,14 @@
   padding: 90px 0px 0px 80px;
 }
 .home-container {
+  padding-bottom: 100px;
   background-color: #fff;
 }
 .pptReview.carousel-inner {
   max-width: 100%;
-  width: 220px;
+  width: 81px;
   height: auto;
-  margin: 0 auto;
+  margin: 25px auto 0px;
 }
 @media(min-width: 768px) {
   .wonderfulReview.carousel-inner {
@@ -96,6 +97,9 @@
     width: 330px;
     height: 160px;
     padding: 54px 95px;
+  }
+  .pptReview.carousel-inner {
+    width: 117.5px;
   }
 }
 @media(min-width: 1440px) {
