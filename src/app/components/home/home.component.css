@@ -67,17 +67,6 @@
   margin: 0 auto;
 }
 
-.footer {
-  height: 200px;
-  background-color: #343534;
-  color: #fff;
-  font-size: 14px;
-  padding: 90px 0px 0px 80px;
-}
-.home-container {
-  padding-bottom: 100px;
-  background-color: #fff;
-}
 .pptReview.carousel-inner {
   max-width: 100%;
   width: 81px;
@@ -114,9 +103,6 @@
   }
 }
 @media(min-width: 1440px) {
-  .home-container {
-    padding: 50px 50px 186px;
-  }
   .photo-recall {
     display: inline-block;
   }
