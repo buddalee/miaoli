@@ -96,7 +96,7 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 MIT
 MIT
 
-@angular/cdk@6.0.2-6a6bc16
+@angular/cdk@6.1.0-9062640
 MIT
 The MIT License
 
@@ -124,19 +124,11 @@ THE SOFTWARE.
 MIT
 MIT
 
-@angular/compiler@6.0.1
-MIT
-MIT
-
 @angular/core@6.0.1
 MIT
 MIT
 
-@angular/forms@6.0.1
-MIT
-MIT
-
-@angular/material@6.0.2-6a6bc16
+@angular/material@6.1.0-9062640
 MIT
 The MIT License
 
@@ -159,10 +151,6 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
-
-@angular/platform-browser-dynamic@6.0.1
-MIT
-MIT
 
 @angular/platform-browser@6.0.1
 MIT
