@@ -12,13 +12,49 @@
       
       <div style="margin-top: 74px">
         <ul class="sidenav-list">
-          <li class="nav-list--item" [routerLink]="['/']">首頁 <span class="nav-list--en">Home</span></li>
-          <li class="nav-list--item">關於 <span class="nav-list--en">About</span></li>
-          <li class="nav-list--item" [routerLink]="['/stories']">故事 <span class="nav-list--en">Stories</span></li>
-          <li class="nav-list--item">景點 <span class="nav-list--en">Viewpoint</span></li>
-          <li class="nav-list--item">活動 <span class="nav-list--en">Activity</span></li>       
-          <li class="nav-list--item">交通 <span class="nav-list--en">Acces</span></li>          
-          <li class="nav-list--item">預約 <span class="nav-list--en">Reservation</span></li> 
+          <li class="nav-list--item"  (click)="chooseItem(1)"
+            [class.active]="activeNumber === 1"
+            [routerLink]="['/']"
+          > 
+            首頁
+            <span class="nav-list--en">Home</span>
+          </li>
+          <li class="nav-list--item"  (click)="chooseItem(2)"
+            [class.active]="activeNumber === 2"
+          >
+            關於
+            <span class="nav-list--en">About</span>
+          </li>
+          <li class="nav-list--item"  (click)="chooseItem(3)"
+            [class.active]="activeNumber === 3" [routerLink]="['/stories']"
+          >
+            故事
+            <span class="nav-list--en">Stories</span>
+          </li>
+          <li class="nav-list--item"  (click)="chooseItem(4)"
+            [class.active]="activeNumber === 4"
+          >
+            景點
+            <span class="nav-list--en">Viewpoint</span>
+          </li>
+          <li class="nav-list--item"  (click)="chooseItem(5)"
+            [class.active]="activeNumber === 5"
+          >
+            活動
+            <span class="nav-list--en">Activity</span>
+          </li>       
+          <li class="nav-list--item"  (click)="chooseItem(6)"
+            [class.active]="activeNumber === 6"
+          >
+            交通
+            <span class="nav-list--en">Acces</span>
+          </li>          
+          <li class="nav-list--item"  (click)="chooseItem(7)"
+            [class.active]="activeNumber === 7"
+          >
+            預約
+            <span class="nav-list--en">Reservation</span>
+          </li> 
         </ul>       
       </div>
 
@@ -38,7 +74,7 @@
         </span>        
       </div>
     </nav>
-    <div class="home-container">
+    <div>
       <router-outlet></router-outlet>
     </div>
     <footer class="footer">

@@ -6,10 +6,16 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./story.component.css']
 })
 export class StoryComponent implements OnInit {
-
+  textHiddenNum: number;
   constructor() { }
 
   ngOnInit() {
   }
+  mouseEnter(num: number) {
+    this.textHiddenNum = num;
+  }
 
+  mouseLeave(num: number) {
+    this.textHiddenNum = null;
+  }
 }

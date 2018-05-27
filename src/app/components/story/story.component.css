@@ -1,0 +1,109 @@
+.story-header-photo {
+  width: 100%;
+  height: 350px;
+  background-image: url('https://taichung.swcb.gov.tw/ReadFile/?p=Article&n=82e826541070444f9ab534798d20a2e0.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 150px;
+}
+
+.story-header-title {
+  border: solid 1px #ffffff;
+  padding: 9px 35px;
+  text-align: center;
+  color: #fff;
+  margin: 0px auto;
+  width: 257px;
+  background-color: rgba(255, 255, 255, 0.1);
+  font-size: 20px;
+}
+.photo-title {
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  justify-content: center;
+  align-items: center;
+}
+.photo-title--text {
+  font-weight: normal;
+  color: #333;
+  margin: 0 20px;
+}
+
+.line {
+  width: 30px;
+  height: 3px;
+  background-color:#bc2f36;
+  display: inline-block;
+}
+.storyPhoto-container {
+  margin: 0 auto 100px;
+  width: 240px;
+}
+.photo {
+  display: inline-block;
+  position: relative;
+  height: 145px;
+}
+
+.photo img {
+  width: 100%;
+  height: 100%;
+}
+.photo + .photo {
+  margin-top: 30px;
+}
+.photo-name {
+  position: absolute;
+  bottom: 15px;
+  left: 25px;
+  color: #fff;
+}
+
+.photo-mask {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.photo-mask:hover {
+  background-image: url('/assets/book.svg');
+  background-color: rgba(51, 51, 51, 0.6);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.photo-name.hidden {
+  visibility: hidden;
+}
+@media (min-width: 768px) {
+  .photo {
+    width: 314px;
+    height: 190px;
+  }
+  .storyPhoto-container {
+    width: 668px;
+    padding: 0;
+  }
+  .storyPhoto-container .photo:nth-child(2) {
+    margin-top: 0px;
+  }
+  .photo + .photo {
+    margin-top: 40px;
+  }
+  .photo:nth-child(2n) {
+    margin-left: 40px;
+  }
+  .story-header-title {
+    width: 382px;
+    padding: 11px 50px;
+  }
+}
+
+@media(min-width: 1440px) {
+  .storyPhoto-container {
+    width: 1070px;
+  }
+  .photo {
+    width: 515px;
+    height: 310px;
+  }
+}

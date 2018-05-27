@@ -1,3 +1,35 @@
-<div style="height:100vh">
-  story works!
+<div style="min-height:100vh">
+  <div class="story-header-photo">
+    <div class="story-header-title">一起坐下來、喝杯茶、聊聊天吧</div>
+  </div>
+  <div class="photo-title">
+    <div class="line"></div>
+    <h5 class="photo-title--text">
+      銅鏡故事
+    </h5>
+    <div class="line"></div>
+  </div>
+  <div class="storyPhoto-container">
+    <div class="photo" (mouseenter) ="mouseEnter(1) " (mouseleave) ="mouseLeave(1)">
+      <div class="photo-mask"></div>
+      <img src="http://fc.life.com.tw/upload_file/5/content/5a34c216-538d-bcc0-03b1-48c906d1cc2c.jpg">
+      <div class="photo-name" [class.hidden]="textHiddenNum === 1">大碗泡茶</div>
+    </div>
+    <div class="photo" (mouseenter) ="mouseEnter(2) " (mouseleave) ="mouseLeave(2)">
+      <div class="photo-mask"></div>      
+      <img src="https://0.share.photo.xuite.net/a258b258/10595c3/9853595/438588712_m.jpg">
+      <div class="photo-name" [class.hidden]="textHiddenNum === 2">昔日糖廠風光</div>      
+    </div>
+    <div class="photo" (mouseenter) ="mouseEnter(3) " (mouseleave) ="mouseLeave(3)">
+      <div class="photo-mask"></div>      
+      <img src="https://9.share.photo.xuite.net/mejun0322/19d60a1/5796498/227292175_l.jpg">
+      <div class="photo-name" [class.hidden]="textHiddenNum === 3">月眉橋歷史</div>      
+    </div>
+    <div class="photo" (mouseenter) ="mouseEnter(4) " (mouseleave) ="mouseLeave(4)">
+      <div class="photo-mask"></div>      
+      <img src="https://p1-news.hfcdn.com/p1-news/NTY4NTM5bmV3cw,,/1b35328fab44d1ae.jpg">
+      <div class="photo-name" [class.hidden]="textHiddenNum === 4">神秘防空洞群</div>      
+    </div>
+    
+  </div>
 </div>
