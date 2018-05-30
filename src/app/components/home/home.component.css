@@ -83,7 +83,37 @@
   top: 15px;
   right: 20px;
 }
+.carousel-item,
+.carousel-item img{
+  height: 100%;
+}
+.home-header-title {
+  padding: 0px 10px;
+  text-align: center;
+  color: #fff;
+  margin: 0px auto;
+  min-width: 297px;
+  width: 100%;
+  font-size: 14px;
+  letter-spacing: 0.1px;
+  line-height: 2.86;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5)
+}
+.carousel-item.active {
+  position: relative;
+}
 @media(min-width: 768px) {
+  .home-header-title {
+    font-size: 18px;
+    line-height: 2.22;
+  }
+  .carousel-inner {
+    height: 458px;
+  }
   .wonderfulReview.carousel-inner {
     width: 500px;
   }
@@ -107,6 +137,9 @@
   }
 }
 @media(min-width: 1440px) {
+  .carousel-inner {
+    height: 640px;
+  }
   .home-container {
     padding: 50px 50px 186px;
   }
