@@ -33,8 +33,11 @@ export class AppComponent implements OnInit {
       this.isOpend = true;
     }
   }
-  chooseItem(_num) {
+  chooseItem(_num, sideNav) {
     this.activeNumber = _num;
+    if (window.innerWidth < 1440) {
+      sideNav.toggle();
+    }
   }
 
 }
