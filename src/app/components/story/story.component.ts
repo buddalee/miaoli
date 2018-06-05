@@ -1,10 +1,16 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 import { Page } from '../../shared/page';
 
 @Component({
   selector: 'app-story',
   templateUrl: './story.component.html',
-  styleUrls: ['./story.component.css']
+  styleUrls: [
+    './css/default.css',
+    './css/bookblock.css',
+    './css/demo1.css',
+    './story.component.css',
+  ],
+  encapsulation: ViewEncapsulation.None,
 })
 export class StoryComponent implements OnInit {
   textHiddenNum: number;
