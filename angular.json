@@ -22,10 +22,7 @@
               "src/favicon.ico",
               "src/assets"
             ],
-            "styles": [
-              "src/assets/css/default.css",
-              "src/assets/css/bookblock.css",
-              "src/assets/css/demo1.css",              
+            "styles": [            
               "src/styles.css",
               "node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
