@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { Page } from '../../shared/page';
 
 @Component({
   selector: 'app-story',

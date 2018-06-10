@@ -20,6 +20,8 @@ export class AppComponent implements OnInit {
       this.activeNumber = 3;
     } else if (pathname.indexOf('home') > -1) {
       this.activeNumber = 1;
+    } else if (pathname.indexOf('traffic') > -1) {
+      this.activeNumber = 6;
     } else {
       this.activeNumber = 1;
     }

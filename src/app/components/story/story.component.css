@@ -21,25 +21,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.photo-title {
-  display: flex;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  justify-content: center;
-  align-items: center;
-}
-.photo-title--text {
-  font-weight: normal;
-  color: #333;
-  margin: 0 20px;
-}
 
-.line {
-  width: 30px;
-  height: 3px;
-  background-color:#bc2f36;
-  display: inline-block;
-}
 .storyPhoto-container {
   margin: 0 auto 100px;
   width: 240px;

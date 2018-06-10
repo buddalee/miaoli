@@ -7,12 +7,14 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
 import { SharedMaterialModule } from './shared-material/shared-material.module';
 import { StoryComponent } from './components/story/story.component';
+import { TrafficComponent } from './components/traffic/traffic.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    StoryComponent
+    StoryComponent,
+    TrafficComponent
   ],
   imports: [
     BrowserModule,

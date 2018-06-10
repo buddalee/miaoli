@@ -1,2 +1,37 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+.photo-title {
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  justify-content: center;
+  align-items: center;
+}
+.photo-title--text {
+  font-weight: normal;
+  color: #333;
+  margin: 0 20px;
+  font-size: 20px;
+}
+
+.line {
+  width: 30px;
+  height: 3px;
+  background-color:#bc2f36;
+  display: inline-block;
+}
+
+.m-description {
+  background-color: #ececec;
+  color: #333;
+  padding: 30px;
+  font-size: 18px;
+}
+
+.m-description + .m-description {
+  margin-top: 30px;
+}
+.m-description--label {
+  color: #8c0e03;
+}
