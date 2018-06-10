@@ -1,6 +1,6 @@
 <div style="min-height:100vh">
   <div class="story-header-photo">
-      <img src="assets/photo/story-header.jpg">
+      <img src="assets/photo/story-header.png">
       <div class="story-header-title">一起坐下來、喝杯茶、聊聊天吧</div>
   </div>
   <div class="photo-title">
@@ -11,69 +11,28 @@
     <div class="line"></div>
   </div>
   <div class="storyPhoto-container">
-    <div (mouseenter) ="mouseEnter(1) " (mouseleave) ="mouseLeave(1)"
-      class="photo bb-bookblock"  id="bb-bookblock1"
+    <a class="photo" target="_blank"
+      href="https://www.flipsnack.com/ritagu/_-fdzpyjccg.html"
     >
+      <div class="photo-mask">       
+      </div>
+      <img src="/assets/photo/story01.png">
+    </a>
+    <a class="photo" target="_blank"
+      href="https://www.flipsnack.com/ritagu/_-ftk5of33z.html"
+    >
+      <div class="photo-mask"></div> 
+      <img src="/assets/photo/story02.png">
+    </a>
+    <div class="photo">
       <div class="photo-mask">
-        <div id="bb-nav-prev1"></div>
-        <div id="bb-nav-next1"></div>        
       </div>
-      <div class="bb-item">
-        <img src="assets/photo/book1-1.jpg">
-        <div class="photo-name" [class.hidden]="textHiddenNum === 1">大碗泡茶</div>
-      </div>
-      <div class="bb-item">
-        <img src="assets/photo/book1-2.JPG">        
-        <div class="photo-name" [class.hidden]="textHiddenNum === 4">大碗泡茶</div> 
-      </div> 
+      <img src="/assets/photo/story03.png">  
     </div>
-    <div class="photo" (mouseenter) ="mouseEnter(2) " (mouseleave) ="mouseLeave(2)"
-      class="photo bb-bookblock"  id="bb-bookblock2"
-    >
+    <div class="photo">
       <div class="photo-mask">
-        <div id="bb-nav-prev2"></div>
-        <div id="bb-nav-next2"></div> 
       </div>
-      <div class="bb-item">
-          <img src="assets/photo/book2-1.jpg">
-          <div class="photo-name" [class.hidden]="textHiddenNum === 2">昔日糖廠風光</div>  
-      </div>
-      <div class="bb-item">
-          <img src="assets/photo/book2-2.jpg">
-          <div class="photo-name" [class.hidden]="textHiddenNum === 2">昔日糖廠風光</div>  
-      </div>  
-    </div>
-    <div (mouseenter) ="mouseEnter(3) " (mouseleave) ="mouseLeave(3)"
-      class="photo bb-bookblock"  id="bb-bookblock3"    
-    >
-      <div class="photo-mask">
-        <div id="bb-nav-prev3"></div>
-        <div id="bb-nav-next3"></div> 
-      </div>
-      <div class="bb-item">
-        <img src="assets/photo/book3-1.jpg">
-        <div class="photo-name" [class.hidden]="textHiddenNum === 3">月眉橋歷史</div>  
-      </div> 
-      <div class="bb-item">
-        <img src="assets/photo/book3-2.jpg">
-        <div class="photo-name" [class.hidden]="textHiddenNum === 3">月眉橋歷史</div>  
-      </div>   
-    </div>
-    <div (mouseenter) ="mouseEnter(4) " (mouseleave) ="mouseLeave(4)"
-      class="photo bb-bookblock"  id="bb-bookblock4"
-    >
-      <div class="photo-mask">
-        <div id="bb-nav-prev4"></div>
-        <div id="bb-nav-next4"></div>
-      </div>
-      <div class="bb-item">
-          <img src="assets/photo/book4-1.jpg">
-          <div class="photo-name" [class.hidden]="textHiddenNum === 4">神秘防空洞群</div> 
-      </div>
-      <div class="bb-item">
-          <img src="assets/photo/book4-2.jpg">
-          <div class="photo-name" [class.hidden]="textHiddenNum === 4">神秘防空洞群</div> 
-      </div>
+      <img src="/assets/photo/story04.png">     
     </div>
   </div>
 </div>

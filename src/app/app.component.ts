@@ -21,7 +21,7 @@ export class AppComponent implements OnInit {
     } else if (pathname.indexOf('home') > -1) {
       this.activeNumber = 1;
     } else {
-      this.activeNumber = null;
+      this.activeNumber = 1;
     }
   }
   onResize(event, sideNav) {
