@@ -1,0 +1,108 @@
+.contact-header-title {
+  border: solid 1px #ffffff;
+  padding: 20px 22px;
+  text-align: center;
+  color: #fff;
+  margin: 0px auto;
+  width: 240px;
+  background-color: rgba(255, 255, 255, 0.1);
+  font-size: 20px;
+  font-weight: 500;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.contact-container {
+  background-image: url('/assets/subtle_grunge_@2X.png');
+  padding: 32px 30px 100px;
+}
+
+.contact-container .photo-title {
+  margin-top: 0px;
+}
+
+.contact-header-photo {
+  width: 100%;
+  height: 350px;
+  position: relative;
+  background-image: url('/assets/photo/resrvation_banner.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contact-container .m-description {
+  font-size: 14px;
+}
+.contact-container .m-description--label {
+  font-size: 18px;
+}
+
+.contact-input {
+  padding: 50px 31px 20px;
+  width: 100%;
+  height: 90px;
+  border: 1px solid #ccc;
+}
+
+.contact-input:focus {
+  outline: 1px solid #8c0e03;
+  border: none;
+}
+.contact-textarea {
+  padding: 50px 31px 5px;
+  width: 100%;
+  height: 120px;
+  border: 1px solid #ccc;
+  resize: none;
+}
+.contact-textarea:focus {
+  outline: 1px solid #8c0e03;
+  border: none;
+}
+.contact__info--item {
+  position: relative;
+}
+
+.contact__info--itemHead {
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  color: #333;
+}
+
+.contact-btn {
+  width: 100%;
+  height: 80px;
+  background-color: #8c0e03;
+  color: #fff;
+  font-size: 18px;
+}
+
+.contact-btn:hover {
+  opacity: .8;
+  cursor: pointer;
+}
+.contact-btn:focus {
+  outline: 1px solid #8c0e03;
+}
+
+@media(min-width: 768px) {
+  .contact-container {
+    padding: 50px 50px 100px;
+  }
+}
+
+@media(min-width: 1440px) {
+  .contact-container {
+    padding: 50px 135px 100px;
+  }
+  .contact__info--item {
+    width: 50%;
+    display: inline-block;
+  }
+  .contact__info--item.fullTA {
+    width: 100%;
+  }
+}

@@ -8,13 +8,15 @@ import { HomeComponent } from './components/home/home.component';
 import { SharedMaterialModule } from './shared-material/shared-material.module';
 import { StoryComponent } from './components/story/story.component';
 import { TrafficComponent } from './components/traffic/traffic.component';
+import { ContactComponent } from './components/contact/contact.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     StoryComponent,
-    TrafficComponent
+    TrafficComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,

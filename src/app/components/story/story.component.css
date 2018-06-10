@@ -2,6 +2,10 @@
   width: 100%;
   height: 350px;
   position: relative;
+  background-image: url('/assets/photo/story-header.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .story-header-photo img {
   width: 100%;
