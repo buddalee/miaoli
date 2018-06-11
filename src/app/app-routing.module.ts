@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { TrafficComponent } from './components/traffic/traffic.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { BatComponent } from './components/bat/bat.component';
+import { ViewPointComponent } from './components/view-point/view-point.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
@@ -13,7 +14,9 @@ const routes: Routes = [
   { path: 'stories', component: StoryComponent },
   { path: 'traffic', component: TrafficComponent },
   { path: 'contact', component: ContactComponent },
-  { path: 'bat', component: BatComponent }    
+  { path: 'bat', component: BatComponent },
+  { path: 'viewpoint', component: ViewPointComponent }    
+  
 ];
 
 @NgModule({

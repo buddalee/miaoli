@@ -31,8 +31,9 @@
             故事
             <span class="nav-list--en">Stories</span>
           </li>
-          <li class="nav-list--item"
+          <li class="nav-list--item" (click)="chooseItem(4, sideNav)"
             [class.active]="activeNumber === 4"
+            [routerLink]="['/viewpoint']"
           >
             景點
             <span class="nav-list--en">Viewpoint</span>

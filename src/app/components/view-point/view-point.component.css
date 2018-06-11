@@ -1,0 +1,11 @@
+.view-img {
+  width: 100%;
+  min-height: 227px;
+  height: auto;
+}
+
+@media(min-width: 768px) {
+  .view-img {
+    min-height: 100vh;
+  }  
+}

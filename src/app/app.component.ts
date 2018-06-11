@@ -26,6 +26,8 @@ export class AppComponent implements OnInit {
       this.activeNumber = 7;
     } else if (pathname.indexOf('bat') > -1) {
       this.activeNumber = null;
+    } else if (pathname.indexOf('viewpoint') > -1) {
+      this.activeNumber = 4;
     } else {
       this.activeNumber = 1;
     }

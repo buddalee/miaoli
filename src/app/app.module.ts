@@ -10,6 +10,7 @@ import { StoryComponent } from './components/story/story.component';
 import { TrafficComponent } from './components/traffic/traffic.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { BatComponent } from './components/bat/bat.component';
+import { ViewPointComponent } from './components/view-point/view-point.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { BatComponent } from './components/bat/bat.component';
     StoryComponent,
     TrafficComponent,
     ContactComponent,
-    BatComponent
+    BatComponent,
+    ViewPointComponent
   ],
   imports: [
     BrowserModule,
