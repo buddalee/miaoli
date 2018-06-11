@@ -67,6 +67,9 @@
   font-weight: 400;
   cursor: pointer;
 }
+.nav-list--item:focus {
+  outline: none;
+}
 .nav-list--item:hover {
   color: #000;
 }

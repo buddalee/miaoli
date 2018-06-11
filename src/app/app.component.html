@@ -1,5 +1,7 @@
 <mat-sidenav-container (window:resize)="onResize($event, sideNav)" >
-  <mat-sidenav #sideNav opened={{isOpend}} mode={{sideMode}}>
+  <mat-sidenav #sideNav opened={{isOpend}} mode={{sideMode}}
+    style="position: fixed"
+  >
     <div class="sidenav-container">
       <div style="display: flex;justify-content: center">
         <div class="header-logo">

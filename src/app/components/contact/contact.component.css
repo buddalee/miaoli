@@ -93,9 +93,16 @@
   .contact-container {
     padding: 50px 50px 100px;
   }
+  .contact-header-title {
+    padding: 11px 27px;
+  }
 }
 
 @media(min-width: 1440px) {
+  .contact-header-title {
+    width: 281px;
+    padding: 11px 49px;
+  }
   .contact-container {
     padding: 50px 135px 100px;
   }
