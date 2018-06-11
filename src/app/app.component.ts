@@ -24,6 +24,8 @@ export class AppComponent implements OnInit {
       this.activeNumber = 6;
     } else if (pathname.indexOf('contact') > -1) {
       this.activeNumber = 7;
+    } else if (pathname.indexOf('bat') > -1) {
+      this.activeNumber = null;
     } else {
       this.activeNumber = 1;
     }

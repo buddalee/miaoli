@@ -9,6 +9,7 @@ import { SharedMaterialModule } from './shared-material/shared-material.module';
 import { StoryComponent } from './components/story/story.component';
 import { TrafficComponent } from './components/traffic/traffic.component';
 import { ContactComponent } from './components/contact/contact.component';
+import { BatComponent } from './components/bat/bat.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ContactComponent } from './components/contact/contact.component';
     HomeComponent,
     StoryComponent,
     TrafficComponent,
-    ContactComponent
+    ContactComponent,
+    BatComponent
   ],
   imports: [
     BrowserModule,
