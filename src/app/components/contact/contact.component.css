@@ -13,6 +13,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
+/* to fixed */
 .contact-container {
   background-image: url('/assets/subtle_grunge_@2X.png');
   padding: 32px 30px 100px;

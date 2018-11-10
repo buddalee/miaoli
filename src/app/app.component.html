@@ -19,8 +19,9 @@
             首頁
             <span class="nav-list--en">Home</span>
           </li>
-          <li class="nav-list--item"
+          <li class="nav-list--item"  (click)="chooseItem(2, sideNav)"
             [class.active]="activeNumber === 2"
+            [routerLink]="['/about']"
           >
             關於
             <span class="nav-list--en">About</span>

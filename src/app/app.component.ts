@@ -28,6 +28,8 @@ export class AppComponent implements OnInit {
       this.activeNumber = null;
     } else if (pathname.indexOf('viewpoint') > -1) {
       this.activeNumber = 4;
+    } else if (pathname.indexOf('about') > -1) {
+      this.activeNumber = 2;
     } else {
       this.activeNumber = 1;
     }

@@ -11,6 +11,7 @@ import { TrafficComponent } from './components/traffic/traffic.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { BatComponent } from './components/bat/bat.component';
 import { ViewPointComponent } from './components/view-point/view-point.component';
+import { AboutComponent } from './components/about/about.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ViewPointComponent } from './components/view-point/view-point.component
     TrafficComponent,
     ContactComponent,
     BatComponent,
-    ViewPointComponent
+    ViewPointComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
